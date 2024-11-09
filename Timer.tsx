@@ -3,7 +3,7 @@ import { Alert, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { useStylesTimer } from './StylesTimer';
 
 export function ComponentTimer() {
-    const [numberOfTimer, setNumberOfTimer] = useState(2);
+    const [numberOfTimer, setNumberOfTimer] = useState(1);
     const styles = useStylesTimer()
     const disabled = numberOfTimer === 5
     const handlePress = () =>{
